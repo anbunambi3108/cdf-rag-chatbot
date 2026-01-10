@@ -1,0 +1,4 @@
+.env
+venv/
+cdf_db/
+__pycache__/
