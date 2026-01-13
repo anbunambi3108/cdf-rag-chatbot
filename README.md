@@ -68,3 +68,10 @@ EPM Admin Guide: Project monitoring and task tracking.
 Known Limitations
 
 The bot cannot read scanned images; PDFs must have selectable text.
+
+
+## 🚀 Latest Updates
+- **Human-in-the-Loop Fallback**: If the bot encounters a legitimate CDF question it cannot answer, it provides a direct link to the **Support Google Form**.
+- **Partial Fulfillment**: The bot now answers parts of a question it knows and only flags the missing parts for support.
+- **Smart Guardrails**: Prevents "junk" or personal queries from triggering support requests.
+- **MMR Search**: Upgraded retrieval (k=8) to find information spread across different PDF pages.
